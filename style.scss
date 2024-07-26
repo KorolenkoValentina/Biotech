@@ -1,0 +1,1016 @@
+@import 'fonts.css';
+
+$color_main_1:#C53C69;
+$color_main_2:#FF8155;
+$color_main_3:#A51A70;
+$color_white:#fff;
+$color_text:#4A4A4A;
+$color_text_second: rgba(13, 13, 13, 0.7);
+$color_darck:#060606;
+
+
+
+.baner {
+    background: url(../img/page-1/baner.jpg) center/cover no-repeat;
+    width: 100%;
+    margin: 0 auto 83px;
+    min-height: 1080px;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1596px;
+    margin: 0 auto;
+}
+
+.btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    background: $color_main_1;
+    box-shadow: 0px 0px 40px rgba(197, 60, 105, 0.5);
+    border-radius: 10px;
+    padding: 18px 48px;
+    color: $color_white;
+}
+
+.btn-light {
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+}
+
+.logo {
+    padding-right: 299px;
+}
+
+.nav-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: $color_white !important;
+    margin-right: 62px;
+}
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: $color_white;
+    line-height: 61px;
+}
+
+p {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: $color_white;
+    opacity: 0.6;
+    margin: 24px 0;
+}
+
+.footer-section,
+.portfolio,
+.baner {
+    .btn {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: url("data:image/svg+xml,%3Csvg width='93' height='62' viewBox='0 0 93 62' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M108.759 12.5127C107.104 10.858 104.418 10.858 102.785 12.5127C101.646 13.6518 100.313 14.5329 98.8302 15.2421L78.7794 -4.83022C79.4671 -6.29159 80.3697 -7.6455 81.5087 -8.78451C83.1635 -10.4393 83.1635 -13.1256 81.5087 -14.7589C79.854 -16.4137 77.1676 -16.4137 75.5343 -14.7589C68.0771 -7.30165 67.196 4.84058 68.4424 15.285C42.2238 12.1904 27.954 24.1392 31.285 52.4424C20.8406 51.196 8.69835 52.0986 1.24109 59.5343C-0.413695 61.1891 -0.413695 63.8755 1.24109 65.5087C2.89587 67.1635 5.5822 67.1635 7.21549 65.5087C8.3545 64.3697 9.68692 63.4886 11.1698 62.7794L31.2206 82.8302C30.5114 84.3131 29.6303 85.667 28.4913 86.7845C26.8365 88.4393 26.8365 91.1256 28.4913 92.7589C30.146 94.4137 32.8324 94.4137 34.4657 92.7589C41.9229 85.3017 42.804 73.1594 41.5576 62.715C67.7762 65.8096 82.046 53.8608 78.715 25.5576C89.1379 26.804 101.302 25.9014 108.759 18.4657C110.414 16.8324 110.414 14.1675 108.759 12.5127ZM33.4771 73.1379L20.8621 60.5229C24.8164 60.265 29.007 60.5659 32.8324 61.1891C33.3481 64.3268 33.778 68.7323 33.4771 73.1379ZM40.0317 53.9683C39.4085 50.1214 39.1076 45.9307 39.3655 42.0194L51.9806 54.6345C48.0478 54.8924 43.8571 54.5915 40.0317 53.9683ZM61.6729 52.3779L41.6221 32.3271C43.0619 29.297 45.1035 27.1694 48.2842 25.665L68.335 45.7158C66.9166 48.746 64.875 50.8521 61.6729 52.3779ZM70.613 36.0021L57.9979 23.387C61.9307 23.1291 66.1214 23.43 69.9468 24.0532C70.57 27.9001 70.8709 32.0907 70.613 36.0021ZM77.1676 16.8324C76.5444 12.9855 76.2435 8.79486 76.5014 4.88356L89.1164 17.4986C85.1836 17.7565 80.993 17.4556 77.1676 16.8324Z' fill='%23F864A1'/%3E%3C/svg%3E%0A");
+            left: 51%;
+            top: 5%;
+            display: block;
+            opacity: 0.2;
+        }
+    }
+
+    .btn-light::after {
+        display: none;
+    }
+}
+
+
+.first-part {
+    margin-top: 265px;
+}
+
+.second-part {
+    margin-top: 176px;
+
+
+    .second-part__box {
+        position: relative;
+
+    }
+
+    .second-box {
+        top: -9%;
+        left: -13%;
+    }
+
+    .forth-box {
+        top: -25%;
+        left: -5%;
+    }
+
+    .title {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        span {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 54px;
+            color: $color_main_2;
+
+        }
+    }
+
+    .subtitle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 196px;
+    }
+
+}
+
+.portfolio {
+    margin-top: 149px;
+
+    .btn::after {
+        left: 59%;
+    }
+
+    .title {
+        color: $color_text;
+
+        span {
+            color: $color_main_1;
+        }
+    }
+
+    p {
+        color: $color_text;
+    }
+
+    .video-part {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: url("data:image/svg+xml,%3Csvg width='38' height='42' viewBox='0 0 38 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.93442 0.926068C3.14788 -1.24594 0.0780029 0.533394 0.0780029 4.89715V37.0998C0.0780029 41.4679 3.14788 43.2449 6.93442 41.075L35.0811 24.933C38.8689 22.7602 38.8689 19.24 35.0811 17.0677L6.93442 0.926068Z' fill='white'/%3E%3C/svg%3E");
+            top: 37%;
+            left: 52%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+
+        }
+    }
+}
+
+.second-blog {
+
+    img {
+        margin-bottom: 26px;
+    }
+
+}
+
+.footer-about,
+.footer-section {
+    background: url(../img/page-1/baner-2.jpg) center/cover no-repeat;
+    width: 100%;
+    margin: 239px auto 0;
+    min-height: 450px;
+
+    .footer-content {
+        padding-top: 127px;
+    }
+
+    .btn::after {
+        left: 72%;
+    }
+}
+
+.scrollup {
+    min-height: 73px;
+    min-width: 48px;
+    bottom: 7%;
+    right: 50%;
+    position: fixed;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg width='48' height='73' viewBox='0 0 48 73' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_313_4)'%3E%3Cpath d='M26.6668 5V1.66667C26.6668 1.22464 26.4912 0.800716 26.1787 0.488155C25.8661 0.175595 25.4422 0 25.0001 0C24.5581 0 24.1342 0.175595 23.8216 0.488155C23.5091 0.800716 23.3335 1.22464 23.3335 1.66667V5C20.2404 5.00353 17.275 6.23383 15.0878 8.42099C12.9006 10.6081 11.6703 13.5736 11.6668 16.6667V26.6667C11.6668 30.2029 13.0716 33.5943 15.5721 36.0948C18.0725 38.5952 21.4639 40 25.0001 40C28.5364 40 31.9277 38.5952 34.4282 36.0948C36.9287 33.5943 38.3335 30.2029 38.3335 26.6667V16.6667C38.3299 13.5736 37.0996 10.6081 34.9125 8.42099C32.7253 6.23383 29.7599 5.00353 26.6668 5V5ZM35.0001 26.6667C35.0001 29.3188 33.9466 31.8624 32.0712 33.7377C30.1958 35.6131 27.6523 36.6667 25.0001 36.6667C22.348 36.6667 19.8044 35.6131 17.9291 33.7377C16.0537 31.8624 15.0001 29.3188 15.0001 26.6667V16.6667C15.0028 14.4573 15.8816 12.3393 17.4438 10.777C19.0061 9.2148 21.1242 8.33598 23.3335 8.33333H26.6668C28.8761 8.33598 30.9942 9.2148 32.5564 10.777C34.1187 12.3393 34.9975 14.4573 35.0001 16.6667V26.6667Z' fill='white'/%3E%3Cpath d='M25 11.6671C24.558 11.6671 24.134 11.8426 23.8215 12.1552C23.5089 12.4678 23.3333 12.8917 23.3333 13.3337V16.667C23.3333 17.1091 23.5089 17.533 23.8215 17.8456C24.134 18.1581 24.558 18.3337 25 18.3337C25.442 18.3337 25.8659 18.1581 26.1785 17.8456C26.4911 17.533 26.6667 17.1091 26.6667 16.667V13.3337C26.6667 12.8917 26.4911 12.4678 26.1785 12.1552C25.8659 11.8426 25.442 11.6671 25 11.6671Z' fill='white'/%3E%3C/g%3E%3Cpath opacity='0.6' d='M5.472 66.216C4.572 66.216 3.702 66.09 2.862 65.838C2.022 65.574 1.356 65.25 0.864 64.866V63.912C1.332 64.308 1.974 64.662 2.79 64.974C3.582 65.274 4.452 65.424 5.4 65.424C6.48 65.424 7.374 65.178 8.082 64.686C8.79 64.194 9.144 63.534 9.144 62.706C9.144 62.046 8.904 61.488 8.424 61.032C8.208 60.84 7.92 60.666 7.56 60.51C7.236 60.354 6.9 60.222 6.552 60.114C6.384 60.054 5.988 59.94 5.364 59.772L4.014 59.376C3.582 59.208 3.216 59.052 2.916 58.908C2.352 58.62 1.944 58.284 1.692 57.9C1.44 57.504 1.296 56.97 1.26 56.298C1.26 55.41 1.626 54.672 2.358 54.084C3.102 53.484 4.128 53.184 5.436 53.184C6.888 53.184 8.16 53.538 9.252 54.246V55.128C8.112 54.36 6.852 53.976 5.472 53.976C4.392 53.976 3.558 54.198 2.97 54.642C2.382 55.074 2.088 55.632 2.088 56.316C2.028 56.94 2.364 57.528 3.096 58.08C3.24 58.176 3.474 58.29 3.798 58.422C4.134 58.554 4.392 58.644 4.572 58.692L5.436 58.944L5.814 59.052L7.038 59.43C7.302 59.502 7.668 59.658 8.136 59.898C8.556 60.09 8.886 60.306 9.126 60.546C9.702 61.122 9.99 61.842 9.99 62.706C9.99 63.81 9.552 64.674 8.676 65.298C7.788 65.91 6.72 66.216 5.472 66.216ZM13.6448 66H12.8348V53.4H13.6448V61.032L18.1628 57.414H19.3508L14.5088 61.302L19.9988 66H18.7748L13.6448 61.608V66ZM22.9261 66H22.1161V57.414H22.9261V59.214C23.2501 58.638 23.7241 58.164 24.3481 57.792C24.9841 57.408 25.6681 57.21 26.4001 57.198V58.026C25.5841 58.026 24.8701 58.26 24.2581 58.728C23.6461 59.184 23.2021 59.712 22.9261 60.312V66ZM29.5812 64.398C30.3132 65.106 31.2012 65.46 32.2452 65.46C33.3012 65.46 34.1832 65.106 34.8912 64.398C35.6112 63.678 35.9712 62.784 35.9712 61.716C35.9712 60.648 35.6112 59.754 34.8912 59.034C34.1832 58.314 33.3012 57.954 32.2452 57.954C31.1892 57.954 30.3012 58.314 29.5812 59.034C28.8732 59.766 28.5192 60.66 28.5192 61.716C28.5192 62.772 28.8732 63.666 29.5812 64.398ZM35.5212 64.902C34.6812 65.778 33.5892 66.216 32.2452 66.216C30.8892 66.216 29.7912 65.778 28.9512 64.902C28.1112 64.026 27.6912 62.964 27.6912 61.716C27.6912 60.468 28.1112 59.406 28.9512 58.53C29.8032 57.642 30.9012 57.198 32.2452 57.198C33.5772 57.198 34.6692 57.642 35.5212 58.53C36.3732 59.418 36.7992 60.48 36.7992 61.716C36.7992 62.952 36.3732 64.014 35.5212 64.902ZM41.267 66.216C40.715 66.216 40.265 66.054 39.917 65.73C39.581 65.406 39.413 64.902 39.413 64.218V53.4H40.223V64.056C40.223 64.992 40.649 65.46 41.501 65.46C41.825 65.46 42.125 65.376 42.401 65.208V65.964C42.089 66.132 41.711 66.216 41.267 66.216ZM46.2943 66.216C45.7423 66.216 45.2923 66.054 44.9443 65.73C44.6083 65.406 44.4403 64.902 44.4403 64.218V53.4H45.2503V64.056C45.2503 64.992 45.6763 65.46 46.5283 65.46C46.8523 65.46 47.1523 65.376 47.4283 65.208V65.964C47.1163 66.132 46.7383 66.216 46.2943 66.216Z' fill='white'/%3E%3Cdefs%3E%3CclipPath id='clip0_313_4'%3E%3Crect width='40' height='40' fill='white' transform='translate(5)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+
+// PROCESS
+.baner-process,
+.scientists-section,
+.process-footer,
+.logo-about {
+    .title {
+        font-family: 'Geometria';
+        font-style: normal;
+        font-weight: 400;
+
+        span {
+            font-weight: 300;
+            opacity: 0.7;
+        }
+    }
+
+    p {
+        font-size: 22px;
+        max-width: 895px;
+    }
+
+    .btn {
+        background-color: $color_main_2;
+        box-shadow: 0px 0px 40px rgba(255, 132, 86, 0.23);
+        border-radius: 60px;
+        margin-right: 20px;
+    }
+}
+
+.baner-process,
+.logo-about {
+    .logo-box {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 1595px;
+            height: 0px;
+            top: 149%;
+            opacity: 0.2;
+            border: 1px solid $color_white;
+        }
+    }
+}
+
+.baner-process {
+    background: url(../img/page-2/baner.jpg) center/cover no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 1080px;
+
+    .btn-light {
+        border-radius: 60px;
+        border: 1px solid $color_main_2;
+        text-decoration: none;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .img-fluid {
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .baner-content {
+        margin: 467px 0 110px;
+    }
+
+
+}
+
+.scientists-section,
+.process-footer {
+    .text-content {
+        margin-top: 200px;
+        margin-right: 160x;
+    }
+}
+
+.scientists-about,
+.scientists-section {
+    .details-content {
+        .title-color {
+            color: $color_white;
+            font-family: 'Geometria';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 45px;
+            padding-left: 50px;
+        }
+
+        .title {
+            font-weight: 500;
+            font-size: 24px;
+            color: $color_white;
+            margin-bottom: 7px;
+            line-height: 30px;
+        }
+
+        .first-block {
+            background: url(../img/page-3/icons/icon-1.svg) no-repeat top left;
+            width: 143px;
+        }
+
+        .second-block {
+            background: url(../img/page-3/icons/icon-2.svg) no-repeat top left;
+        }
+
+        .third-block {
+            background: url(../img/page-3/icons/icon-3.svg) no-repeat top left;
+            width: 168px;
+        }
+
+        .forth-block {
+            background: url(../img/page-3/icons/icon-4.svg) no-repeat top left;
+            width: 195px;
+        }
+    }
+}
+
+.scientists-section {
+    background: $color_darck;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: url(../img/page-2/elements-1.png);
+        bottom: -19%;
+        right: 0;
+        z-index: 0;
+    }
+
+    .details-content {
+        margin: 175px 0 175px 187px;
+        z-index: 2;
+
+        .title-color {
+            color: $color_main_2;
+        }
+
+        .first-block {
+            margin-right: 123px;
+        }
+
+        .third-block {
+            margin-right: 88px;
+        }
+
+    }
+}
+
+.about-portfolio,
+.process-portfolio {
+    max-width: 1595px;
+    width: 100%;
+    margin: 0 auto;
+
+    .portfolio-content {
+        text-align: center;
+        max-width: 1300px;
+        margin: 0 auto;
+
+        span {
+            color: rgba(13, 13, 13, 0.7);
+            font-weight: 300;
+        }
+    }
+
+    .first-blog,
+    .second-blog,
+    .third-blog {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: url("data:image/svg+xml,%3Csvg width='38' height='42' viewBox='0 0 38 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.93442 0.926068C3.14788 -1.24594 0.0780029 0.533394 0.0780029 4.89715V37.0998C0.0780029 41.4679 3.14788 43.2449 6.93442 41.075L35.0811 24.933C38.8689 22.7602 38.8689 19.24 35.0811 17.0677L6.93442 0.926068Z' fill='white'/%3E%3C/svg%3E");
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+        }
+    }
+
+    #more {
+        display: none;
+    }
+
+}
+
+.process-portfolio {
+    position: relative;
+    max-width: 1300px;
+
+    &::after {
+        content: url(../img/page-2/elements-2.svg);
+        position: absolute;
+        left: -40%;
+        bottom: 25%;
+        display: block;
+    }
+
+    .title-secondary {
+        font-weight: 300;
+        font-size: 30px;
+        color: rgba(13, 13, 13, 0.7);
+        line-height: 36px;
+    }
+
+
+    .first-blog,
+    .second-blog {
+        &::after {
+            content: url("data:image/svg+xml,%3Csvg width='62' height='62' viewBox='0 0 62 62' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='31' cy='31' r='31' fill='%23FF8456'/%3E%3Cg clip-path='url(%23clip0_24_71)'%3E%3Cpath d='M25.9562 17.5953C23.4318 16.199 21.3853 17.3429 21.3853 20.1482V40.8499C21.3853 43.6579 23.4318 44.8003 25.9562 43.4053L44.7207 33.0284C47.2459 31.6316 47.2459 29.3686 44.7207 27.9721L25.9562 17.5953Z' fill='white'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_24_71'%3E%3Crect width='28' height='27' fill='white' transform='translate(20 17)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+        }
+    }
+
+    .video-block {
+        width: 1270px;
+        height: 712px;
+        border-radius: 20px;
+        margin: 54px 0 27px;
+    }
+
+    .read-next button {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: $color_darck;
+        border: 2px solid $color_text;
+        border-radius: 60px;
+        padding: 18px 48px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: $color_text;
+            color: $color_white;
+        }
+    }
+}
+
+.process-footer {
+    background: $color_darck;
+    margin-top: 130px;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: url(../img/page-2/elements.png);
+        left: 0;
+        bottom: -7px;
+        display: block;
+    }
+
+    .img-fluid {
+        margin: 49px 0 94px;
+    }
+
+    .img-content {
+        position: relative;
+
+        .btn {
+            position: absolute;
+            left: 50%;
+            right: 50%;
+            bottom: 18%;
+            width: 253px;
+            padding: 18px 45px;
+        }
+    }
+}
+
+// ABOUT
+.about-header,
+.baner-about {
+    .btn {
+        border-radius: 0;
+        background: $color_main_3;
+        box-shadow: none;
+        text-transform: uppercase;
+    }
+}
+
+.about-header {
+    .nav-link {
+        color: $color_darck !important;
+    }
+
+    .btn {
+        text-transform: none;
+    }
+
+    .logo-mobile {
+        display: none;
+    }
+}
+
+.baner-about {
+    background: url(../img/page-3/baner.jpg) center/cover no-repeat;
+    width: 100%;
+    margin: 0 auto 83px;
+    min-height: 951px;
+
+    .baner-content {
+        max-width: 879px;
+        padding-top: 346px;
+        margin: 0 auto;
+        text-align: center;
+
+        .btn-light {
+            background: transparent;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.logo-about {
+
+    .title,
+    p {
+        color: $color_text;
+        margin: 0 auto;
+    }
+
+    .text-content {
+        margin: 135px auto 100px;
+        text-align: center;
+    }
+
+    .logo-box::after {
+        width: 100%;
+        top: 263%;
+        border: 1px solid $color_text;
+    }
+}
+
+.scientists-about {
+    background: url(../img/page-3/baner-2.jpg) center/cover no-repeat;
+    width: 100%;
+
+    .details-content {
+        padding: 110px 0;
+
+        p {
+            color: $color_white;
+        }
+    }
+}
+
+.about-portfolio {
+    .portfolio {
+        margin-top: 100px;
+    }
+
+    .video-blog {
+        margin-top: -125px;
+    }
+
+    .read-next button {
+        font-family: 'Geometria';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: $color_text;
+        background: transparent;
+        cursor: pointer;
+        text-decoration: underline;
+        border: none;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $color_darck;
+        }
+    }
+}
+
+.footer-about {
+    background: url(../img/page-3/baner-3.jpg) center/cover no-repeat;
+    margin-top: 100px;
+
+    .btn {
+        text-transform: uppercase;
+        border-radius: 0;
+        background: $color_main_3;
+        padding: 22px 48px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .baner {
+        .btn::after {
+            left: 39%;
+            top: -10%;
+        }
+    }
+
+    .baner-content {
+        flex-direction: column;
+
+        .btn-box {
+            justify-content: center;
+        }
+
+        .first-part {
+            margin-top: 122px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .second-part {
+            margin: 150px 100px;
+            height: 600px;
+
+
+
+            .title {
+                font-size: 26px;
+                top: 39%;
+                left: 47%;
+
+                span {
+                    font-size: 34px;
+                }
+            }
+
+            .subtitle {
+                top: 61%;
+                left: 50%;
+                font-size: 16px;
+                line-height: 16px;
+            }
+
+            .second-box {
+                top: -386px;
+                left: 263px;
+            }
+
+
+            .third-box {
+                top: -198px;
+            }
+
+            .forth-box {
+                top: -654px;
+                left: 284px;
+            }
+        }
+
+    }
+
+    .logo-box {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center !important;
+    }
+
+    .portfolio {
+        text-align: center;
+
+        .video-part::after {
+            top: 30%;
+        }
+
+        .btn::after {
+            left: 45%;
+            top: -5px;
+        }
+    }
+
+    .portfolio-content {
+        width: 100%;
+    }
+
+    .btn {
+        padding: 21px 48px;
+        font-size: 10px;
+    }
+
+    .footer-section {
+        margin-top: 107px;
+        text-align: center;
+
+        .btn::after {
+            left: 60%;
+            top: -7px;
+        }
+    }
+
+    .process-footer {
+        &::after {
+            content: url(../img/page-2/mobile-elements.png);
+            opacity: 0.4;
+        }
+
+        .text-content {
+            margin: 100px 0 0;
+        }
+
+        .img-content {
+            display: none;
+        }
+    }
+
+    .footer-content {
+        padding: 50px 0;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width:450px) {
+    .navbar-light .navbar-toggler {
+        border: 3px solid transparent;
+        border-color: $color_main_1;
+
+        &:focus {
+            box-shadow: $color_main_3 0 0 0 0.16rem;
+        }
+    }
+
+    .logo {
+        width: 200px;
+        padding-right: 0;
+    }
+
+    .btn {
+        font-size: 15px;
+        padding: 16px 42px;
+
+    }
+
+    p {
+        text-align: center;
+        font-size: 16px;
+        margin: 47px 0;
+    }
+
+    .title {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .footer-section,
+    .portfolio,
+    .baner {
+        .btn::after {
+            display: none;
+        }
+    }
+
+    .scientists-section,
+    .logo-about {
+        .title {
+            font-size: 49px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .scientists-about,
+    .scientists-section {
+        .details-content {
+            .title {
+                font-size: 14px;
+            }
+
+            .title-color {
+                font-size: 34px;
+                padding-left: 37px;
+            }
+
+            .subtitle {
+                font-size: 11px;
+                margin: 20px 0;
+
+            }
+        }
+    }
+
+    .baner-content {
+        flex-direction: column;
+
+        .btn-box {
+            justify-content: center;
+        }
+
+        .first-part {
+            margin-top: 122px;
+        }
+
+        .second-part {
+            margin-top: 150px;
+            height: 495px;
+
+            .second-part__box {
+                width: 216px;
+            }
+
+            .img-fluid {
+                max-width: 82%;
+            }
+
+            .title {
+                font-size: 14px;
+                top: 38%;
+                left: 41%;
+
+                span {
+                    font-size: 34px;
+                }
+            }
+
+            .subtitle {
+                top: 45%;
+                left: 38%;
+                width: 116px;
+                font-size: 11px;
+                line-height: 16px;
+            }
+
+            .second-box {
+                top: -220px;
+                left: 132px;
+            }
+
+            .third-box {
+                top: -157px;
+            }
+
+            .forth-box {
+                top: -413px;
+                left: 159px;
+            }
+        }
+
+    }
+
+
+
+    .portfolio {
+        margin-top: 50px;
+
+        .video-part::after {
+            top: 37%;
+        }
+    }
+
+    .first-blog {
+        margin-bottom: 26px;
+    }
+
+    .video-blog,
+    .scientists-section__content {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        margin-top: 107px;
+    }
+
+
+    .baner-process {
+        .logo-box::after {
+            width: 100%;
+        }
+
+        .baner-content {
+            margin: 200px 0 110px;
+        }
+    }
+
+
+    .scientists-about,
+    .scientists-section {
+        .details-content {
+            .first-block {
+                margin-right: 62px;
+            }
+
+            .third-block {
+                margin-right: 33px;
+            }
+
+            .forth-block {
+                width: 136px;
+            }
+        }
+    }
+
+    .scientists-section {
+        &::after {
+            opacity: 0.4;
+            bottom: -18%;
+        }
+
+        .details-content {
+            margin: 0 0 0 12px;
+            flex-wrap: wrap;
+
+        }
+
+        .text-content {
+            margin-top: 156px;
+            margin-right: 0;
+        }
+    }
+
+    .process-portfolio {
+        .read-next button {
+            font-size: 16px;
+            padding: 10px 30px;
+        }
+
+        .first-blog::after,
+        .second-blog::after {
+            top: 25%;
+        }
+
+        .video-block {
+            height: auto;
+        }
+
+        span {
+            .video-blog {
+                .second-blog {
+                    margin-right: 0 !important;
+                }
+            }
+        }
+    }
+
+    .process-footer {
+        .text-content {
+            margin: 0;
+        }
+
+    }
+
+    .footer-content {
+        padding: 127px 0;
+
+    }
+
+    .scientists-about .details-content,
+    .scientists-section__content {
+        flex-wrap: wrap;
+    }
+
+    .about-portfolio {
+        span {
+            .video-blog {
+                margin: 2rem 0 0 !important;
+
+                .second-blog,
+                .third-blog {
+                    margin-right: 0 !important;
+                }
+
+                .first-blog {
+                    margin-top: 2rem !important;
+                }
+            }
+        }
+
+        .video-blog {
+            margin-top: 30px;
+
+        }
+    }
+
+    .logo-about .logo-box {
+        &::after {
+            top: 150%;
+        }
+    }
+
+    .about-header {
+        .logo-mobile {
+            display: block;
+            width: 200px;
+        }
+
+        .logo {
+            display: none;
+        }
+    }
+
+    .scrollup {
+        right: 46%;
+    }
+}
